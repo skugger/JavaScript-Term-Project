@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-image: url("../media/MacintoshSE.jpg");
+    font-family: "VT323", monospace, Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #00FF00;
+    font-size: 2.5em;
+    text-shadow: 4px 4px 8px rgba(0, 255, 0, 0.8);
+    width: 80%;
+    margin: auto;
+    margin-top: 8%;
+}
+div {
+    clear: both;
+    text-align: center;
+}
+nav {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+nav a {
+    padding: 0 25px;
+    display: inline-block;
+}
+a {
+    text-decoration: none;
+    color: #00FF00;
+}
+a:hover {
+    background-color: #00FF00;
+    box-shadow: 4px 4px 8px rgba(0, 255, 0, 0.8);
+    color: #233231;
+    border-radius: 3px;
+}
+@media only screen and (max-width: 768px) {
+    nav {
+        flex-wrap: wrap;
+    }
+
+    nav a {
+        flex: 1 0 50%;
+    }
+}

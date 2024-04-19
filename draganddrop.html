@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Johnny Freek and the Freektones</title>
+    <meta charset="UTF-8">
+    <!-- <meta name = "viewport" content = "width = device-width, initial-scale = 1" -->
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <style>
+        body {
+            background-image: url("media/stage.jpg");
+            background-repeat: no-repeat;
+            background-color: black;
+            background-position: center center;
+            width: 100%;
+            color: white;
+            overflow: hidden;
+        }
+        section {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        H1 {
+            text-align: center;
+            text-shadow: 2px 2px black;
+        }
+
+        /* p {
+            flex: 1;
+            width: 20%;
+            box-sizing: border-box;
+            padding: 10%;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        } */
+
+    </style>
+    <script>
+        $(function () {
+            $("#thing01").draggable();
+            $("#thing02").draggable();
+            $("#thing03").draggable();
+            $("#thing04").draggable();
+            $("#thing05").draggable();
+            $("#thing06").draggable();
+            $("#thing07").draggable();
+            $("#thing08").draggable();
+            $("#thing09").draggable();
+            $("#thing10").draggable();
+        })
+    </script>
+</head>
+
+<body>
+    <H1>Tuesday Night - Open Mic night!</H1>
+    <section>
+        <p id="thing01"><img src="media/drums.png" /></p>
+        <p id="thing02"><img src="media/speaker-left.png" /></p>
+        <p id="thing03"><img src="media/speaker-right.png" /></p>
+        <p id="thing04"><img src="media/johnny_freek.png" /></p>
+        <p id="thing05"><img src="media/singer.png" /></p>
+        <p id="thing06"><img src="media/bass.png" /></p>
+        <p id="thing07"><img src="media/guitar1.png" /></p>
+        <p id="thing08"><img src="media/guitar2.png" /></p>
+        <p id="thing09"><img src="media/mic.png" /></p>
+        <p id="thing10"><img src="media/light.png" /></p>
+    </section>
+</body>
+
+</html>
